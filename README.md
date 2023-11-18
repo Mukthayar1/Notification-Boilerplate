@@ -1,0 +1,2 @@
+# Notification-Boilerplate
+ React Native Notification Boilerplate leveraging Firebase Cloud Messaging (FCM) and React Native Notifee library. Easily configure title, body, and icon for notifications. Incorporate event handling for clicks, closes, and shows. Ensures proper permission handling and seamless integration with React Native Notifee. Streamline notification setup and enhance user engagement in your React Native app.
