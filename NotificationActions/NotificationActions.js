@@ -1,5 +1,6 @@
 import { PermissionsAndroid, Platform } from 'react-native'
 import messaging from '@react-native-firebase/messaging';
+import notifee from '@notifee/react-native';
 
 const NotificationPermission = async (setFcmToken) => {
     if (Platform.OS == 'android') {
@@ -32,7 +33,8 @@ const NotificationListener = () => {
 
     //Listener 1 when app is in the active state
     messaging().onMessage(async remoteMessage => {
-        console.log('Listener 1 ===>', remoteMessage)
+        console.log('Listener 1 ===>', remoteMessage);
+        DisplayNotification()
     });
 
     //Listener 2 activates exclusively upon the user clicking a notification while the app is in the background state
@@ -53,11 +55,31 @@ const NotificationListener = () => {
 
 }
 
+const DisplayNotification = async () => {
+
+    const channelId = await notifee.createChannel({
+        id: 'notification',
+        name: 'notification Channel',
+    });
+
+    // Display a notification
+    await notifee.displayNotification({
+        title: 'Notification Title',
+        body: 'Main body content of the notification',
+        android: {
+            channelId,
+            pressAction: {
+                id: 'default',
+            },
+        },
+    });
+}
 
 
 
 export {
     NotificationPermission,
     GetFcmToken,
-    NotificationListener
+    NotificationListener,
+    DisplayNotification
 }
