@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "632341134640",
+    "firebase_url": "https://campus-working--saylani-default-rtdb.firebaseio.com",
+    "project_id": "campus-working--saylani",
+    "storage_bucket": "campus-working--saylani.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632341134640:android:6f81632a5d0f5431b55cf5",
+        "android_client_info": {
+          "package_name": "com.campus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632341134640-j2fvn9hr0d80753sfo6jp4gr1n5v6veq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMRrCjOvOFw1FvuSzo9COqU2cNiibm5jQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632341134640-j2fvn9hr0d80753sfo6jp4gr1n5v6veq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632341134640:android:66d71b993633f4dab55cf5",
+        "android_client_info": {
+          "package_name": "com.notificationboilerplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632341134640-j2fvn9hr0d80753sfo6jp4gr1n5v6veq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMRrCjOvOFw1FvuSzo9COqU2cNiibm5jQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632341134640-j2fvn9hr0d80753sfo6jp4gr1n5v6veq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
